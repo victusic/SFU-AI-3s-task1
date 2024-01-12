@@ -1,0 +1,11 @@
+# Editor directories and files
+.vscode/
+
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# Output directory
+/dist/

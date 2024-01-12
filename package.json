@@ -1,0 +1,27 @@
+{
+  "name": "ai3sem1task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon --exec ts-node src/index.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victusic/SFU-AI-3s-tast1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victusic/SFU-AI-3s-tast1/issues"
+  },
+  "homepage": "https://github.com/victusic/SFU-AI-3s-tast1#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
