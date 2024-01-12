@@ -1,0 +1,69 @@
+{
+  "stores": {
+    "store1": { "name": "Tiffany" },
+    "store2": { "name": "BORK" },
+    "store3": { "name": "Apple store" },
+    "store4": { "name": "Lacoste" },
+    "store5": { "name": "L’Occitane" },
+    "store6": { "name": "IKEA" },
+    "store7": { "name": "Hard Rock Cafe" }
+  },
+  "distances": {
+    "store1": [
+      { "store": "store2", "distance": 100 },
+      { "store": "store3", "distance": 350 },
+      { "store": "store4", "distance": 410 },
+      { "store": "store5", "distance": 150 },
+      { "store": "store6", "distance": 620 },
+      { "store": "store7", "distance": 910 }
+    ],
+    "store2": [
+      { "store": "store1", "distance": 100 },
+      { "store": "store3", "distance": 370 },
+      { "store": "store4", "distance": 280 },
+      { "store": "store5", "distance": 240 },
+      { "store": "store6", "distance": 360 },
+      { "store": "store7", "distance": 760 }
+    ],
+    "store3": [
+      { "store": "store1", "distance": 350 },
+      { "store": "store2", "distance": 370 },
+      { "store": "store4", "distance": 145 },
+      { "store": "store5", "distance": 200 },
+      { "store": "store6", "distance": 480 },
+      { "store": "store7", "distance": 440 }
+    ],
+    "store4": [
+      { "store": "store1", "distance": 410 },
+      { "store": "store2", "distance": 280 },
+      { "store": "store3", "distance": 145 },
+      { "store": "store5", "distance": 120 },
+      { "store": "store6", "distance": 190 },
+      { "store": "store7", "distance": 310 }
+    ],
+    "store5": [
+      { "store": "store1", "distance": 150 },
+      { "store": "store2", "distance": 240 },
+      { "store": "store3", "distance": 200 },
+      { "store": "store4", "distance": 120 },
+      { "store": "store6", "distance": 285 },
+      { "store": "store7", "distance": 515 }
+    ],
+    "store6": [
+      { "store": "store1", "distance": 620 },
+      { "store": "store2", "distance": 360 },
+      { "store": "store3", "distance": 480 },
+      { "store": "store4", "distance": 190 },
+      { "store": "store5", "distance": 285 },
+      { "store": "store7", "distance": 125 }
+    ],
+    "store7": [
+      { "store": "store1", "distance": 910 },
+      { "store": "store2", "distance": 760 },
+      { "store": "store3", "distance": 440 },
+      { "store": "store4", "distance": 310 },
+      { "store": "store5", "distance": 515 },
+      { "store": "store6", "distance": 125 }
+    ]
+  }
+}
