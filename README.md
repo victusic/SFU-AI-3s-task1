@@ -1,4 +1,4 @@
-# SFU-AI-3s-tast1
+# SFU-AI-3s-task1
 
 <h5>ENG</h5>
 This project is a completed (first) assignment in the SFU discipline of AI.
