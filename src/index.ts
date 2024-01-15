@@ -4,7 +4,7 @@ import { ShoppingCenter } from './types'
 const jsonData = fs.readFileSync('src/data.json', 'utf-8')
 const shoppingCenter: ShoppingCenter = JSON.parse(jsonData)
 
-function findShortestPath(store1: string, store2: string, visited: Set<string> = new Set()): number {
+const findShortestPath = (store1: string, store2: string, visited: Set<string> = new Set()): number => {
   if (store1 === store2) return 0
 
   visited.add(store1)
@@ -25,7 +25,7 @@ function findShortestPath(store1: string, store2: string, visited: Set<string> =
   return shortestPath
 }
 
-function estimateDistance(distance: number) {
+const estimateDistance = (distance: number) => {
   if (distance === Infinity) return 'Магазины не найдены'
 
   switch (true) {
@@ -42,7 +42,7 @@ function estimateDistance(distance: number) {
   }
 }
 
-function estimateDistanceBetweenMultipleStores(stores: string[]): void {
+const estimateDistanceMain = (stores: string[]): void => {
   if (stores.length < 2) {
     console.log('Выберите как минимум два магазина для оценки расстояния.')
     return
@@ -68,4 +68,4 @@ function estimateDistanceBetweenMultipleStores(stores: string[]): void {
 }
 
 const selectedStores = ['store1', 'store2', 'store3', 'store4', 'store5', 'store6', 'store7']
-estimateDistanceBetweenMultipleStores(selectedStores)
+estimateDistanceMain(selectedStores)
